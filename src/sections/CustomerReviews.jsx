@@ -18,7 +18,7 @@ function CustomerReviews() {
           <ReviewCard 
           key={review.customerName}
           imgURL={review.imgURL} 
-          customerName={review.className}
+          customerName={review.customerName}
           rating={review.rating}
           feedback={review.feedback}
           />
